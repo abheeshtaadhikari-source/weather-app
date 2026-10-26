@@ -15,6 +15,15 @@ A dynamic Node.js and Express web application that provides real-time weather in
 
 ## 📁 Repository Structure
 
+```text
+weather-app/
+├── public/          # Static assets (CSS styles, client-side scripts, images)
+├── views/           # EJS template files for page rendering
+├── app.js           # Main Express server configuration & API routes
+├── package.json     # Node.js project metadata and dependencies
+└── package-lock.json# Locked dependency versions
+```
+
 ---
 
 ## 🛠️ Tech Stack
@@ -46,7 +55,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 3. **Set up Environment Variables (if applicable):**
 
-   Create a .env file in the root directory and add your Weather API key:
+   Create a ```.env``` file in the root directory and add your Weather API key:
    ```Code snippet
    PORT=3000
    WEATHER_API_KEY=your_api_key_here
@@ -69,9 +78,9 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 Contributions are welcome! If you'd like to improve this project:
 
 1. Fork the repository.
-2. Create your feature branch (git checkout -b feature/AmazingFeature).
-3. Commit your changes (git commit -m 'Add some AmazingFeature').
-4. Push to the branch (git push origin feature/AmazingFeature).
+2. Create your feature branch (```git checkout -b feature/AmazingFeature```).
+3. Commit your changes (```git commit -m 'Add some AmazingFeature'```).
+4. Push to the branch (```git push origin feature/AmazingFeature```).
 5. Open a Pull Request.
 
 ---
@@ -79,3 +88,10 @@ Contributions are welcome! If you'd like to improve this project:
 ## 📄 License
 
 This project is open source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
+
+```
+### How to add this to your repository:
+1. On your open GitHub page for [abheeshtaadhikari-source/weather-app](https://github.com/abheeshtaadhikari-source/weather-app), click the **Add a README** button under the *README* section.
+2. Paste the Markdown code block above into the editor.
+3. Click **Commit changes...** at the top right to save it to your `main` branch.
+```
